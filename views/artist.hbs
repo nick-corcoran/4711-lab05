@@ -1,0 +1,13 @@
+{{#each artist}}
+<div class="Artist">
+                    <img src=" {{this.image}}">
+                    <div>
+                        <h3>{{this.name}}</h3>
+                        <p>{{this.description}}</p>
+                    </div>
+                    <div>
+                        <button id = "{{@index}}"onclick= "deleteArtist(this.id)" class="delete">Delete</button>
+                    </div>
+
+                </div>
+{{/each}}

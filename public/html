@@ -1,0 +1,57 @@
+<!-- <div class=" Artist">
+                    <img src=" https://randomuser.me/api/portraits/med/men/1.jpg">
+                    <div>
+                        <h3>Haojun Liao</h3>
+                        <p> Soon to be Digital processing teacher</p>
+                    </div>
+                    <div>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+
+                <div class="Artist">
+                    <img src=" https://randomuser.me/api/portraits/med/women/1.jpg">
+                    <div>
+                        <h3>Parker Chen</h3>
+                        <p>Procedural programming in C professor and hot pot chef</p>
+                    </div>
+                    <div>
+                        <button class="delete">Delete</button>
+                    </div>
+
+                </div>
+
+                <div class=" Artist">
+                    <img src=" https://randomuser.me/api/portraits/med/men/2.jpg">
+                    <div>
+                        <h3>Bosco Kwan</h3>
+                        <p>Senior Developer for Dads beats Dads inc.and a Teacher For Client server</p>
+                    </div>
+                    <div>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+
+
+
+                <div class=" Artist">
+                    <img src=" https://randomuser.me/api/portraits/med/men/3.jpg">
+                    <div>
+                        <h3>Daniel Yoo</h3>
+                        <p>Pro brawl star player/Wrestler</p>
+                    </div>
+                    <div>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+
+                <div class="Artist">
+                    <img src=" https://randomuser.me/api/portraits/med/men/4.jpg">
+                    <div>
+                        <h3>Joban Kang</h3>
+                        <p>.......http://jobankang.ca/</p>
+                    </div>
+                    <div>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->

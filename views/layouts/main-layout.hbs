@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Nicholas Corcoran home page
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <link href="../style1.css" rel="stylesheet">
+        <script src="../script.js" defer></script>
+    </head>
+
+    <body>
+        
+        <div class="container-flex">
+            <div id="ArtistDirectory">
+                <h1>
+                    <b>Artist Directory</b>
+                </h1>
+                <input id="DirInput" type="text">
+                <button id="addArtist" onclick="displayArtistFields()">Add</button>
+                <button id="search" onclick="search()">Search</button>
+            </div>
+
+            <div id="aFields" class="container-flex">
+                <input id = "AName"placeholder="Artist Name" class="artistField" type="text">
+                <input id = "AAbout" placeholder="About Artist" class="artistField" type="text">
+                <input id="AImage"placeholder="Image Url" class="artistField" type="text">
+                <button id = "addFields" onclick="submitFields()">Add</button>
+            </div>
+
+            <div id="ArtistBox" class="container-flex">
+                
+            {{{body}}}
+
+            </div>
+        </div>
+
+
+
+
+    </body>
+
+</html>
