@@ -43,7 +43,7 @@ function submitFields() {
 
 function deleteArtist(id) {
     console.log(id);
-    let url = new URL("http://localhost:3000/delete");
+    let url = new URL("https://comp-4711-lab5.herokuapp.com/delete");
     let params = { "id": id }
     url.search = new URLSearchParams(params).toString();
     fetch(url)
@@ -65,7 +65,7 @@ function deleteArtist(id) {
 
 function addNewArtistToServer(name, about, image, count) {
     var artist = { "name": name, "description": about, "image": image, "id": count }
-    fetch("http://localhost:3000/new",
+    fetch("https://comp-4711-lab5.herokuapp.com/new",
         {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
