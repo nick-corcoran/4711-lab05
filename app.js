@@ -20,7 +20,7 @@ app.engine(
 );
 app.set('view engine', 'hbs');
 app.set('views', 'views');
-app.listen(3000, () => console.log("connected"));
+app.listen(process.env.PORT || 3000);
 
  
 //called when request for page is made
