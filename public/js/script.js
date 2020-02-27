@@ -65,7 +65,7 @@ function deleteArtist(id) {
 
 function addNewArtistToServer(name, about, image, count) {
     var artist = { "name": name, "description": about, "image": image, "id": count }
-    fetch("https://comp-4711-lab5.herokuapp.com/new"),
+    fetch("https://comp-4711-lab5.herokuapp.com/new",
         {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
